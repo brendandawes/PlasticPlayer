@@ -18,6 +18,7 @@ Parts
 * 3D printed enclosure
 * A Pro Spotify account
 * [ NFC Stickers ](http://zipnfc.com/nfc-stickers/nfc-sticker-midas-tiny-ntag213.html)
+* 35mm Blank Slides - via Ebay or other suppliers
 
 How it Works
 ------------
