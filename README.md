@@ -1,6 +1,8 @@
 Plastic Player
 --------------
 
+![Image of Plastic Player showing John Coltrane being played](plasticplayer.jpg?raw=true)
+
 An NFC based controller for Spotify using the Mopidy Server
 
 Parts
