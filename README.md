@@ -6,16 +6,16 @@ An NFC based controller for Spotify using the Mopidy Server
 Parts
 -----
 
-* Raspberry Pi running Musicbox
-* Espruino Wifi
-* Adafruit 128 x 32 SPI OLED
-* PN532 NFC breakout
-* 2 x Sanwa Arcade Buttons
-* Adafruit half-sized Perma Proto board
-* Adafruit Neopixel breadboard
+* Raspberry Pi running [ Pi Musicbox ](http://www.pimusicbox.com)
+* [ Espruino Wifi ](https://www.espruino.com)
+* Adafruit [ 128 x 32 SPI OLED ](https://www.adafruit.com/product/661)
+* [ PN532 NFC breakout ](https://www.espruino.com/PN532)
+* 2 x [ Sanwa Arcade Buttons ](https://www.arcadeworlduk.com/products/Sanwa-OBSC-24-C-Arcade-Button.html)
+* [ Adafruit half-sized Perma Proto board ](https://www.adafruit.com/product/571)
+* [ Adafruit Neopixel breadboard ](https://www.adafruit.com/product/1558)
 * 3D printed enclosure
 * A Pro Spotify account
-* NFC Stickers
+* [ NFC Stickers ](http://zipnfc.com/nfc-stickers/nfc-sticker-midas-tiny-ntag213.html)
 
 How it Works
 ------------
