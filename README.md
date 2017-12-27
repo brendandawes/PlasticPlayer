@@ -48,30 +48,29 @@ Solder the Espruino board in the centre of the Perma-Proto board.
 
 Solder the components to the Espruino using the following pin connections.
 
-OLED Wiring
+| OLED | Espruino Wifi |
+|------|---------------|
+| CS   | GND           |
+| RST  | b7            |
+| DC   | a0            |
+| CLK  | b5            |
+| DATA | b6            |
+| 3.3  | 3.3           |
+| GND  | GND           |
 
-OLED			        	Espruino Wifi
-
-CS          				GND	
-RST				          b7
-DC				          a0
-CLK				          b5
-DATA				        b6
-VIN				          --
-3.5v				        +
-GND				          GND
 
 Neo Pixel
 
-+				            +
++				            3.3
 G				            GND
 In				          b15
 
 NFC
 
-3.3v				        +
+3.3v				        3.3
 MOSI				        b3
 SSEL				        b10
 GND				          GND
+~~~~
 
 
