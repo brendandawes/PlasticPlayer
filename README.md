@@ -58,19 +58,15 @@ Solder the components to the Espruino using the following pin connections.
 | 3.3  | 3.3           |
 | GND  | GND           |
 
+| Neo Pixel | Espruino Wifi |
+|-----------|---------------|
+| +         | 3.3           |
+| G         | GND           |
+| In        | b15           |
 
-Neo Pixel
-
-+				            3.3
-G				            GND
-In				          b15
-
-NFC
-
-3.3v				        3.3
-MOSI				        b3
-SSEL				        b10
-GND				          GND
-~~~~
-
-
+| NFC  | Espruino Wifi |
+|------|---------------|
+| 3.3  | 3.3           |
+| MOSI | b3            |
+| SSEL | b10           |
+| GND  | GND           |
