@@ -30,7 +30,7 @@ The Raspberry Pi manages and plays the music and it's this you'll connect to you
 
 The controller is what you can build with this repo. The controller uses 35mm photographic slides with NFC stickers to play anything on Spotify. This uses an Espruino Wifi board. Of course you don't have to use 35mm slides — it could be anything you can put an NFC sticker onto.
 
-When you power up the Plastic Player the Espruino connects to your WiFi network and pulls down data in the form of a JSON file — I use Airtable as a simple solution but you could use anything, even a flat text file, as long as it's JSON formatted in the correct way. This JSON file contains a list of NFC tag ids with matching Spotify URIs — these are your albums. When you place an album (slide) into Plastic Player, the Espruino sees the NFC tag and looks-up that tag in the JSON file.  When it finds a match it sends the corresponding Spotify URI to the Musicbox over wifi and then starts that track list playing. Plastic Player also includes controls for play/pause and skip (next track).
+When you power up the Plastic Player the Espruino connects to your WiFi network and pulls down data in the form of a JSON file — I use [Airtable](http://airtable.com) as a simple solution but you could use anything, even a flat text file, as long as it's JSON formatted in the correct way. This JSON file contains a list of NFC tag ids with matching Spotify URIs — these are your albums. When you place an album (slide) into Plastic Player, the Espruino sees the NFC tag and looks-up that tag in the JSON file.  When it finds a match it sends the corresponding Spotify URI to the Musicbox over wifi and then starts that track list playing. Plastic Player also includes controls for play/pause and skip (next track).
 
 Raspberry Pi
 ------------
@@ -107,6 +107,8 @@ Setting up the database of albums
 Plastic Player consults a JSON file to match NFC tags with Spotify albums URIs. An example JSON schema is included in this repo. I use Airtable to easily manage and serve this file but you can use whatever you want as long as it's web accessible. 
 
 Construct your JSON file using the tag IDs and the corresponding Spotify URIs.
+
+Once you have this JSON file done and existing on the web, and that location is in the PATH variable as detailed above, then when you place the relevant NFC tag into the Plastic Player it should talk to the Musicbox and play!
 
 
 
