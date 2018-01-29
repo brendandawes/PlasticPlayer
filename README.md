@@ -3,7 +3,7 @@ Plastic Player
 
 ![Image of Plastic Player showing John Coltrane being played](plasticplayer.jpg?raw=true)
 
-An NFC based controller for Spotify using the Mopidy Server. This isn't a step by step instructables style build guide but hopefully there's enough information here to allow you build your own version. Knowledge of building stuff like this, soldering and understanding JSON files and the like would be good.
+An NFC based controller for Spotify using the Mopidy Server. This isn't a step by step instructables style build guide but hopefully there's enough information here to build your own version. Knowledge of building stuff like this, soldering and understanding JSON files and the like would be good.
 
 Materials
 ---------
@@ -104,7 +104,7 @@ To provide power to the Plastic Player, I used a panel mount female USB (see par
 NFC Tags
 --------
 
-Place an NFC tag on a slide and place it into the Plastic Player. Any unknown tags will display the tag ID on the OLED display. You can then use this to create the JSON file (see below).
+Place an NFC tag on a slide and place it into the Plastic Player. Any unknown tags will display the tag ID on the OLED display. You can then use this information in the JSON file (see below).
 
 Setting up the database of albums
 ---------------------------------
