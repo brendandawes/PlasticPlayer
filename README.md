@@ -16,6 +16,7 @@ Materials
 * 2 x [ Sanwa Arcade Buttons ](https://www.arcadeworlduk.com/products/Sanwa-OBSC-24-C-Arcade-Button.html)
 * [ Adafruit half-sized Perma Proto board ](https://www.adafruit.com/product/571)
 * [ Adafruit Neopixel breadboard ](https://www.adafruit.com/product/1558)
+* [Panel Mount Micro USB](https://uk.rs-online.com/web/p/micro-usb-connectors/9125114/)
 * 3D printed enclosure (available on this repo)
 * A Pro Spotify account
 * [ NFC Stickers ](http://zipnfc.com/nfc-stickers/nfc-sticker-midas-tiny-ntag213.html)
@@ -95,6 +96,8 @@ Enclosure
 ---------
 
 You can enclose this project in whatever you see fit but I've included the .stl files for you to use and either print at home of send to a service such as Shapeways to create the enclosure. Once you have that you can place the parts and then snap-fit the enclosure back together.
+
+To provide power to the Plastic Player, I used a panel mount female USB (see parts list above) which I then attached to another USB lead I had cut up, wiring the cut end to the panel mount USB and plugging the male end into the Espruino as normal.
 
 NFC Tags
 --------
