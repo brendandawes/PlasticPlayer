@@ -25,6 +25,8 @@ Materials
 How it Works
 ------------
 
+[Watch the Video](https://vimeo.com/251775077)
+
 Plastic Player has two main components — A Raspberry Pi running the Musicbox system and an Espruino WiFi based controller. 
 
 The Raspberry Pi manages and plays the music and it's this you'll connect to your stereo system. 
